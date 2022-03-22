@@ -9,7 +9,6 @@
 
 import torch
 import torch.nn as nn
-from datasets.dataset_ import MAX_LENGTH
 
 # 判断当前机器是CPU还是GPU
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
